@@ -49,6 +49,6 @@ int main(){
 2 5
 Destructor is called!
 3 4
-Destructor is called!
-Destructor is called!
-Destructor is called! */
+Destructor is called!  // At the end of main(), all stack-allocated objects are destroyed in reverse order of creation: //r3 (copy of r2) is destroyed
+Destructor is called!  //r2 is destroyed
+Destructor is called!  //r1 is destroyed  */
