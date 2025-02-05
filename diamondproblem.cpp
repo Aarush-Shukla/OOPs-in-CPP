@@ -6,13 +6,14 @@ class Parent{
         // Parent(){
         //     cout<<"Parent Class"<<endl;
         // }
-        void display(){
+        void display(){              //CompileTime Polymorphism
             cout<<"Parent"<<endl;
         }
-        // virtual void display(){
+        // virtual void display(){   //Runtime Polymorphism
         //     cout<<"Parent"<<endl;
         // }
 };
+
 
 class Child1: virtual public Parent{
     public:
